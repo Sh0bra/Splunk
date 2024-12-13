@@ -45,4 +45,5 @@ At this time Splunk offers .rpm, .tgz, .deb files but for RHEL we will use .rpm.
 
 7. Login to http://localhost:8000 with username and password
     You should see somethingg like below
-    ![alt text](splunk-login.png)
+    ![alt text](assets/splunk-login-page.png)
+    ![alt text](assets/splunk-logged-in.png)
