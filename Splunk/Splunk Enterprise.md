@@ -13,11 +13,11 @@ For installing Splunk we will be following the [installation instruction for Lin
 At this time Splunk offers .rpm, .tgz, .deb files but for RHEL we will use .rpm.
 
 1. Download the .rpm file from [Splunk](https://www.splunk.com/en_us/download/splunk-enterprise.html). <br>
-- Alternatively you can run <br>
-```
-wget -O splunk-9.3.2-d8bb32809498.x86_64.rpm "https://download.splunk.com/products/splunk/releases/9.3.2/linux/splunk-9.3.2-d8bb32809498.x86_64.rpm"
-```
- but keep in mind to change the version number if it gets updated.
+    - Alternatively you can run <br>
+    ```
+    wget -O splunk-9.3.2-d8bb32809498.x86_64.rpm "https://download.splunk.com/products/splunk/releases/9.3.2/linux/splunk-9.3.2-d8bb32809498.x86_64.rpm"
+    ```
+    but keep in mind to change the version number if it gets updated.
 
 2. In your terminal navigate to the folder you downloaded the file and run <br>
 ```
