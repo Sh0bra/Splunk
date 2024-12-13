@@ -24,7 +24,6 @@ At this time Splunk offers .rpm, .tgz, .deb files but for RHEL we will use .rpm.
     rpm -i splunk-9.3.2-d8bb32809498.x86_64.rpm
     ``` 
     <br>
-
     > Keep in mind the name of the .rpm file may differ from yours.
 
 3. Navigate to the default folder that Splunk gets installed <br>
@@ -45,3 +44,5 @@ At this time Splunk offers .rpm, .tgz, .deb files but for RHEL we will use .rpm.
 6. Accept license and create username and password for server
 
 7. Login to http://localhost:8000 with username and password
+    You should see somethingg like below
+    ![alt text](splunk-login.png)
