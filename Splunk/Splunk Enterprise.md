@@ -16,17 +16,26 @@ At this time Splunk offers .rpm, .tgz, .deb files but for RHEL we will use .rpm.
 Alternatively you can run `wget -O splunk-9.3.2-d8bb32809498.x86_64.rpm "https://download.splunk.com/products/splunk/releases/9.3.2/linux/splunk-9.3.2-d8bb32809498.x86_64.rpm"` but keep in mind to change the version number if it gets updated.
 
 2. In your terminal navigate to the folder you downloaded the file and run <br>
-```rpm -i splunk-9.3.2-d8bb32809498.x86_64.rpm``` <br>
+```
+rpm -i splunk-9.3.2-d8bb32809498.x86_64.rpm
+``` 
+<br>
 > Keep in mind the name of the .rpm file may differ from yours.
 
 3. Navigate to the default folder that Splunk gets installed <br>
-```cd /opt/splunk```
+```
+cd /opt/splunk
+```
 
 4. Navigate to the binary directory to where the splunk binary lives
-```cd bin```
+```
+cd bin
+```
 
 5. Run the splunk binary to start the server
-```./splunk start```
+```
+./splunk start
+```
 
 6. Accept license and create username and password for server
 
