@@ -1,10 +1,5 @@
 # Splunk Enterprise
-This is my documentation on Splunk and using it as a SIEM in the Security Operations Center
-
-## Learning Objectives
-- Deploy Splunk in a production environment
-- Monitor endpoints using Splunk Universal Forwarder
-- Customizing indexes to manage proper workflow
+Setting up Splunk Enterprise as SIEM to monitor endpoint devices
 
 # Installing Splunk
 
@@ -14,7 +9,6 @@ At this time Splunk offers .rpm, .tgz, .deb files but for RHEL we will use .rpm.
 
 1. Download the .rpm file from [Splunk](https://www.splunk.com/en_us/download/splunk-enterprise.html). <br>
     - Alternatively you can run <br>
-    <br>
     ```
     wget -O splunk-9.3.2-d8bb32809498.x86_64.rpm "https://download.splunk.com/products/splunk/releases/9.3.2/linux/splunk-9.3.2-d8bb32809498.x86_64.rpm"
     ```
